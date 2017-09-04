@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1"
+             x:Class="App1.MainPage">
+
+    <StackLayout Margin="20" VerticalOptions="Center">
+
+        <Entry x:Name="entUser" Placeholder="ingrese usuario"></Entry>
+        <Label x:Name="lblUser" TextColor="Red" IsVisible="False"></Label>
+
+        <Entry x:Name="entPass" Placeholder="ingrese password" IsPassword="True"></Entry>
+        <Label x:Name="lblPass" TextColor="Red" IsVisible="False"></Label>
+
+        <Button x:Name="btnLogin" Clicked="btnLogin_Clicked" Text="Iniciar"></Button>
+
+    </StackLayout>
+</ContentPage>
